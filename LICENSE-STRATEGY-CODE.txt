@@ -1,0 +1,20 @@
+Strategy Code — Proprietary / All Rights Reserved
+
+
+RU
+Оригинальный исходный код торговой стратегии НЕ публикуется и НЕ передаётся.
+Доступ возможен только в формате supervised live run (демонстрация по видеосвязи).
+Опционально: black-box артефакт по отдельной договорённости и под NDA.
+Детальные отчёты по сделкам (с метками времени и ценами), а также временные ряды капитала/просадки, привязанные ко времени, не предоставляются.
+
+EN
+The original trading strategy source code is NOT published and NOT transferred.
+Access is limited to a supervised live run (screen-shared demo).
+Optionally: a black-box artifact is available under a separate agreement and NDA.
+Detailed per-trade reports (timestamps/prices) and time-indexed equity/drawdown series are not provided.
+
+No source-code license is granted. Any evaluation/commercial use requires a separate written agreement.
+
+© 2025 rleydev (thelaziestcat) · thelaziestcat@proton.me / thelazyazzcat@gmail.com
+
+SPDX-License-Identifier: LicenseRef-StrategyCode-Proprietary

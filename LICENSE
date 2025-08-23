@@ -1,7 +1,18 @@
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Full text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+SPDX-License-Identifier: CC-BY-NC-4.0
 
-© 2025 A (rleydev / thelaziestcat). Attribution required; non‑commercial use only.
+© 2025 A (rleydev / thelaziestcat). Attribution required; non-commercial use only.
 
-This is the DEFAULT license for this repository’s **results and documentation** unless a subfolder states otherwise.
-See `LICENSES.md` for folder‑specific licenses.
+This is the DEFAULT license for this repository’s public RESULTS and DOCUMENTATION,
+unless a subfolder explicitly states otherwise. See `LICENSES.md` for folder-specific terms.
+
+EXCLUSIONS / OVERRIDES:
+- `/integrity/**`  → CC0 1.0 (public-domain dedication) — integrity manifests, GPG sigs, OTS.
+- `/keys/**`       → CC0 1.0 — public verification keys.
+- `/data_quality_policy/**` → CC BY 4.0 — policy text & tables.
+- `/strategy_proof/**` → CC BY-NC 4.0 — proofs of existence for strategy archive (no code).
+
+NOT INCLUDED / NOT LICENSED HERE:
+- Proprietary strategy source code — All Rights Reserved (see `LICENSE-STRATEGY-CODE.txt`).
+- Per-trade CSVs and time-indexed equity/drawdown series — not public.

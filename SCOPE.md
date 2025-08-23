@@ -9,5 +9,5 @@ This repository includes:
 
 This repository does **not** include:
 - Any proprietary trading strategy source code (**All Rights Reserved**)
-- Per‑trade CSVs or minute‑by‑minute equity (available **under NDA** only)
+- Detailed per-trade reports (timestamps/prices) and time-indexed equity/drawdown series
 - Any third‑party raw datasets (if referenced), which remain under original providers’ terms
