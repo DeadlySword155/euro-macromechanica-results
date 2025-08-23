@@ -1,5 +1,7 @@
 Strategy Code — Proprietary / All Rights Reserved
 
+NOTE: This is NOT the repository license. For the repo license see ./LICENSE (CC BY-NC 4.0).
+
 
 RU
 Оригинальный исходный код торговой стратегии НЕ публикуется и НЕ передаётся.

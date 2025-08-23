@@ -93,6 +93,6 @@ if ($act -eq $h) {"OK"} else {"MISMATCH: $f`n  expected=$h`n  actual  =$act"}
 - **This folder:** *CC BY‑NC 4.0* (integrity artifacts & documentation).  
 - **Per‑trade CSVs / equity dynamics with trades / execution diagnostics:** **Not public** — available on request. See `COMMERCIAL.md` for terms (NDA Audit Kit, Research/Commercial License). 
 - **Strategy code:** Proprietary / All Rights Reserved. Not included.
-See [`LICENSE-STRATEGY-CODE.txt`](https://github.com/rleydev/euro-macromechanica-results/tree/main/LICENSE-STRATEGY-CODE.txt) and [`COMMERCIAL.md`](https://github.com/rleydev/euro-macromechanica-results/tree/main/commercial.md).
+See [`STRATEGY-CODE-NOTICE.txt`](https://github.com/rleydev/euro-macromechanica-results/tree/main/STRATEGY-CODE-NOTICE.txt) and [`COMMERCIAL.md`](https://github.com/rleydev/euro-macromechanica-results/tree/main/COMMERCIAL.md).
 
 **Contact:** GitHub **@rleydev (thelaziestcat)** · email **thelaziestcat@proton.me** / **thelazyazzcat@gmail.com**

@@ -13,4 +13,4 @@
 
 **Notes**
 - Third-party datasets (if any) remain under their original providers’ terms (see `NOTICE-THIRD-PARTY.*` where relevant).
-- Proprietary strategy source code is not included and not licensed here (see `LICENSE-STRATEGY-CODE.txt`).
+- Proprietary strategy source code is not included and not licensed here (see `STRATEGY-CODE-NOTICE.txt`).
