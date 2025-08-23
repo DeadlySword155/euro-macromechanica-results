@@ -40,13 +40,13 @@ All other signals are **published for transparency**, but they are **not gating 
 
 ---
 
-## 💡 1) Rationale (Why 5–10-Minute Gaps Are Prioritized)  
+## 💡 Rationale (Why 5–10-Minute Gaps Are Prioritized)  
 For the 5-minute indicator stack, **frequent 5–10-minute gaps** disrupt the construction of M5 bars and break entry/exit triggers.  
 Because of this direct mechanical effect, the **annual number of 5–10-minute gaps** is the main determinant of whether a year is suitable for inclusion in headline metrics. Other anomalies are documented, but they **do not determine inclusion**.  
 
 ---
 
-## 📜 2) Decision Rule  
+## 📜 Decision Rule  
 - **2001–2008:** ❌ **DROP** unconditionally (systemic feed quality problems in early years; used only for stress tests).  
 - **2009+:** a year is considered ✅ **OK** for headline if and only if the annual **number of anomalous 5–10-minute gaps** (`cnt_5_10`) is **< 120**. Otherwise → ❌ **DROP**.  
 - **Borderline threshold:** ⚠️ a year is marked **BORDERLINE** if `|cnt_5_10 − 120| ≤ 12` (±10% tolerance). Borderline years still follow the main rule (`< 120` → OK; otherwise DROP).  
@@ -55,7 +55,7 @@ Because of this direct mechanical effect, the **annual number of 5–10-minute g
 
 ---
 
-## 📊 3) Current Classification  
+## 📊 Current Classification  
 - **HEADLINE (✅ OK):** 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 (Jan–end of July)  
 - **❌ DROP:** 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008  
 
@@ -64,7 +64,7 @@ Because of this direct mechanical effect, the **annual number of 5–10-minute g
 
 ---
 
-## 🧪 4) Stress Tests  
+## 🧪 Stress Tests  
 Years **2001–2008** remain **outside** headline metrics and are included **only** in stress tests to illustrate strategy behavior under degraded feed quality.  
 
 ---
@@ -72,5 +72,34 @@ Years **2001–2008** remain **outside** headline metrics and are included **onl
 ## 🔎 See Detailed Data Analysis  
 Repo: **euro-macromechanica-backtest-data**[`analysis/...`](https://github.com/rleydev/euro-macromechanica-backtest-data/tree/main/analysis)
 
+---
 
-Provenance: see data_quality_policy/README.sha256
+## 🧾 Pre-registration & Provenance
+
+The data-quality policy (including the primary **5–10 minute gap** threshold) was **frozen before headline runs** and **independent of PnL**.
+
+Artifacts in `integrity/data_quality_policy/...`
+
+**Artifacts & anchoring**
+- **TABLE_SHA256:** `4dc3fb3cb02354ae686829180fb02b064c221426de9817b4d3751cb8248d8c6b` *(for `data_quality_table.csv`)*
+- **GPG signatures:** `data_quality_table.csv.asc`
+- **OpenTimestamps (OTS):** `data_quality_table.csv.sha256.ots`
+- **Anchored (Bitcoin):** **block 911,080**,  
+  **txid** `a93495aa3fe087d999893241d01a56cf5067680afa04b61afe71f4ce454c305c`,  
+  **timestamp** **2025-08-21T20:27:52Z(UTC)**
+
+> Note. Some block explorers render *local* time by default. In documents, record **UTC**.
+
+**How to verify**
+```bash
+# 1) Signatures (GPG)
+gpg --verify data_quality_table.csv.asc  data_quality_table.csv
+
+# 2) Hashes (SHA-256)
+sha256sum data_quality_table.csv
+# macOS: shasum -a 256 data_quality_policy.md data_quality_table.csv
+
+# 3) OTS (no local Bitcoin node)
+ots verify --no-bitcoin data_quality_table.csv.sha256.ots data_quality_table.csv.sha256
+ots info    data_quality_table.csv.sha256.ots   # shows txid and block height
+```
