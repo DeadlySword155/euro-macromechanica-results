@@ -34,12 +34,6 @@ Makefile    text eol=lf
 *.pdf       binary
 
 # =========================
-#   HISTDATA / RAW DATA
-# =========================
-
-DAT_ASCII_* binary
-
-# =========================
 #   SPECIAL FOLDERS
 # =========================
 # artifacts (results .csv.gz, PNG etc)
