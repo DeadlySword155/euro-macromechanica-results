@@ -1,0 +1,14 @@
+NOTICE — Backtest Results
+
+© 2025 A (rleydev / thelaziestcat)
+Default license: CC BY‑NC 4.0 (non‑commercial; attribution required).
+
+Scope:
+- Applies to /results (summary CSV, SVG equity) and narrative reports.
+- /data_quality_policy → CC BY 4.0 (policy & tables).
+- /integrity → CC0 1.0 (hashes/signatures/timestamps are factual metadata).
+- /keys → CC0 1.0 (public key for verification only).
+- /strategy_proof → CC BY‑NC 4.0 (proofs for proprietary strategy; strategy code not included).
+- Per‑trade data & minute‑by‑minute equity are NOT public (NDA only).
+- The proprietary trading strategy/source code is NOT included (All Rights Reserved).
+- Third‑party raw datasets (if referenced) remain under their providers’ terms.
