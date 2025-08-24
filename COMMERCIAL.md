@@ -3,18 +3,16 @@
 **EN (short)**
 - **Supervised live run (NDA):** run on your data during a call; outputs limited to aggregates (annual summaries, SVG) + integrity artifacts (SHA-256/GPG/OTS).  
   Detailed per-trade reports (timestamps/prices) and time-indexed equity/drawdown series are **not provided**.
-- **Black-box (on request):** separate artifact with restricted outputs (SAFE/EVAL), no source; available under NDA.
-- **Algorithmic Trading Architect (Systematic FX) — Quant Research Lead — Implementation, Logic Transfer & Ongoing Governance (NDA):** 
-  initial industrialization on your stack with **formal logic transfer** (signals/risk/cost), parity tests & acceptance criteria; then **ongoing support** on a retainer (runbooks, monitoring, incident response, periodic re-validation).  
+- **Black-box (on request):** separate artifact with restricted outputs (SAFE/EVAL), no source; **available under NDA, commercial terms negotiated separately**.
+- **Algorithmic Trading Architect (Systematic FX) — Quant Research Lead — Implementation, Logic Transfer & Ongoing Governance (NDA):** initial industrialization on your stack with **formal logic transfer** (signals/risk/cost), parity tests & acceptance criteria; then **ongoing support** on a retainer (runbooks, monitoring, incident response, periodic re-validation).  
   **No hands-on coding** and **no source transfer** by default.
 - **Source code:** proprietary, **not transferred** (separate agreement/escrow optional). See `STRATEGY-CODE-NOTICE.txt`.
 
 **RU (кратко)**
-- **Supervised live run (NDA):** прогон на ваших данных во время созвона; на выход — агрегаты (годовые summary, SVG) и **артефакты целостности (integrity)**: SHA-256 / GPG / OTS.  
+- **Supervised live run (NDA):** прогон на ваших данных во время созвона; на выход — агрегаты (годовые summary, SVG) и артефакты целостности (SHA-256 / GPG / OTS).  
   Детальные отчёты по сделкам (временные метки/цены) и поминутные ряды equity/просадки **не предоставляются**.
-- **Black-box (по запросу):** отдельный артефакт с ограниченными выходами (SAFE/EVAL), без исходников; по NDA.
-- **Архитектор алгоритмической торговли (FX) — Quant Research Lead — внедрение, передача логики и долгосрочное кураторство (NDA):** 
-  промышленное развёртывание на вашей инфраструктуре с **формальной передачей логики** (сигналы/риск/стоимости), тестами паритета и критериями приёмки; далее — **поддержка на ретейнере** (runbooks, мониторинг, реагирование на инциденты, регулярная повторная валидация).  
+- **Black-box (по запросу):** отдельный артефакт с ограниченными выходами (SAFE/EVAL), без исходников; **по NDA, коммерческие условия оговариваются отдельно**.
+- **Архитектор алгоритмической торговли (FX) — Quant Research Lead — внедрение, передача логики и долгосрочное кураторство (NDA):** промышленное развёртывание на вашей инфраструктуре с **формальной передачей логики** (сигналы/риск/стоимости), тестами паритета и критериями приёмки; далее — **постоянная поддержка** на ретейнере (runbooks, мониторинг, реагирование на инциденты, регулярная повторная валидация).  
   **Без написания прод-кода** и **без передачи исходников** по умолчанию.
 - **Исходный код:** проприетарный, **не передаётся** (возможен отдельный договор/эскроу). См. `STRATEGY-CODE-NOTICE.txt`.
 
