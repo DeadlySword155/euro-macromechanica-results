@@ -2,7 +2,7 @@
 
 Stress runs are for **illustration only** on degraded feed quality and are **excluded** from headline metrics.
 
-We publish **only**:
+Published **only**:
 - **Annual summary CSV** (minimal aggregates like PnL%, MaxDD%).
 - **Annual SVG equity** (year curve).
 - **artifacts_YYYY.sha256** (annual manifest)
