@@ -5,6 +5,7 @@ Stress runs are for **illustration only** on degraded feed quality and are **exc
 We publish **only**:
 - **Annual summary CSV** (minimal aggregates like PnL%, MaxDD%).
 - **Annual SVG equity** (year curve).
+- **artifacts_YYYY.sha256** (annual manifest)
 
 > ⚠️ **Not published for stress:**  
 > • detailed per‑trade reports (timestamps/prices),  
@@ -15,7 +16,7 @@ We publish **only**:
 ---
 
 ## 🎚️ Track scope for stress
-Stress results are provided **only for the 1.5% risk track with a fixed starting capital of 100,000 USD per year**.  
+Stress results are provided **only for the 1.5% per trade risk track with a fixed starting capital of 100,000 USD per year**.  
 This is purely illustrative and not part of headline evaluation.
 
 ---
