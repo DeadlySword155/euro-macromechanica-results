@@ -109,7 +109,7 @@ if ($errors.Count -eq 0) { "OK: super-manifest matches" } else { $errors -join "
 ---
 
 ## 🔗 Links
-- Canonical input binding (Data Hub): `INPUTS-PROVENANCE.md` / `INPUTS-PROVENANCE.ru.md`
+- Canonical input binding (Data Hub): `INPUTS-PROVENANCE.md`
 - Integrity guide (this repo): `INTEGRITY.md` (note on absolute paths in manifests)
 - Yearly manifests: `results/**/artifacts_YYYY.sha256` (+ `.asc`, `.ots` for headline tracks when applicable)
 
